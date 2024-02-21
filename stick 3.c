@@ -20,6 +20,10 @@ main()
 		{
 			printf("%d ",i);
 		}
+		else
+		{
+			printf("  ");
+		}
 	
 	}
 
