@@ -1,18 +1,21 @@
 #include<stdio.h>
 main()
 {
-   int i,j,k ;
-   
-   for(i=5; i>=1; i--)
-   {
-   	for(k=1; k<=i; k++)
-   	{
-   	    printf(" ");	
+	int n;
+	printf("Enter the value of n :");
+	scanf("%d",&n);
+	
+	int a[n];
+	int i;
+	for(i=0; i<n; i++)
+	{
+		printf("Enter the value of a[%d] :",i);
+		scanf("%d",&a[i]);
 	}
-   	for(j=i; j<=5; j++)
-   	{
-   	    printf("%d",j);	
-	}
-	printf("\n");
-   }	
+	 int squar;
+	 for(i=0; i<n; i++)
+	 {
+	 	squar=a[i]*a[i];
+	 	printf("%d ",squar);
+	 }
 }
