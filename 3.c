@@ -12,10 +12,10 @@ main()
 		printf("Enter the value of a[%d] :",i);
 		scanf("%d",&a[i]);
 	}
-	 int squar;
+	 int sum;
 	 for(i=0; i<n; i++)
 	 {
-	 	squar=a[i]*a[i];
-	 	printf("%d ",squar);
+	 	sum=a[i]+a[i];
+	 	printf("%d ",sum);
 	 }
 }
