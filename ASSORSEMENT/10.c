@@ -28,14 +28,15 @@ main()
 		printf("\n");
 	}
 	
-	
+	int x=n-1;
 	for(i=0; i<n; i++)
 	{
 		for(j=0; j<n; j++)
 		{
 			if(j==i)
 			{
-				sum=sum+a[j][i];
+				sum=sum+a[x][i];
+				x--;
 			}
 		}
 	}
