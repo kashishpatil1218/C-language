@@ -15,7 +15,7 @@ main()
 	 int sum;
 	 for(i=0; i<n; i++)
 	 {
-	 	sum=a[i]+a[i];
+	 	sum=a[i]*a[i];
 	 	printf("%d ",sum);
 	 }
 }
