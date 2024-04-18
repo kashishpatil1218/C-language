@@ -5,5 +5,5 @@ main()
 	printf("enter the value of n :");
 	scanf("%d",&n);
 	
-	printf("%d",n%2==0);
+	printf("%d",n%2==1);
 }
