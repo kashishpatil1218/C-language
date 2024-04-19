@@ -28,7 +28,7 @@ main()
 	{
 			for(j=0; j<m; j++)
 			{
-				sum=sum+a[i][j];
+				sum=sum-a[i][j];
 			}
 	}
 		printf("%d",sum);
