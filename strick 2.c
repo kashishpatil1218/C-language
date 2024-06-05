@@ -6,6 +6,6 @@ main()
 	scanf("%d%d",&a,&b);
 	
 	int div;
-	div=a-b;
+	div=a+b;
 	printf("div is %d",div);
 }
