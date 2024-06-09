@@ -7,6 +7,6 @@ main()
 	int multi;
 	
 	
-	multi=x/y;
+	multi=x*y;
 	printf("sum is %d",multi);
 }
